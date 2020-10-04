@@ -1,13 +1,75 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  list-style: none;
+}
+
+.toodooContainer {
+}
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.editContainer {
+  display: flex;
+}
+
+.editContainer p {
+  margin-left: 0.3rem;
+
+}
+
+.newListBtn {
+  
+}
+
+#editTitleForm {
+  display: none;
+}
+
+
+
+.todoItem{
+  display: flex;
+  padding: 0.3rem;
+}
+
+.todoItem li {
+  margin-left: 0.3rem;
+}
+
+
+.bottomTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter;
+  color: #000000;
+  opacity: 30%;
+  margin-top: 1rem;
+}
+
+.lineBreak {
+  size: 20px;
+}
+
+.bottomTitle h3{
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.bottomTitle p{
+  margin: 0;
 }
